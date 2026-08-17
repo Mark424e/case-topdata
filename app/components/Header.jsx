@@ -10,7 +10,7 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <nav className="container mx-auto flex justify-between items-center py-8">
+    <nav className="container mx-auto flex justify-between items-center py-8 font-navbar">
       <a className="font-logo tracking-widest uppercase text-3xl me-16 shrink-0" href="#">
         <strong>Top</strong>data
       </a>
@@ -129,12 +129,12 @@ const Header = () => {
           {isSearchOpen ? (
             <CloseIcon
               height="1.5em"
-              className="hover:scale-125 transition-all ease-in-out duration-300 cursor-pointer"
+              className="hover:scale-125 hover:rotate-90 transition-all ease-in-out duration-300 cursor-pointer"
             />
           ) : (
             <SearchIcon
               height="1.5em"
-              className="hover:scale-125 transition-all ease-in-out duration-300 cursor-pointer"
+              className="cursor-pointer hover:scale-125 hover:rotate-90 transition-all ease-in-out duration-300"
             />
           )}
         </button>
