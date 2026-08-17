@@ -1,4 +1,8 @@
+"use client";
+
 import React from 'react'
+import SearchIcon from '@iconify-react/material-symbols/search';
+import ShoppingBasketOutlineIcon from '@iconify-react/material-symbols/shopping-basket-outline';
 
 const Header = () => {
   return (
@@ -33,8 +37,12 @@ const Header = () => {
         </li>
         <li>Kontakt</li>
         <ul className="flex space-x-2 ps-8">
-          <li>Søg</li>
-          <li>Kurv</li>
+          <li>
+            <SearchIcon height="1.5em" />
+          </li>
+          <li>
+            <ShoppingBasketOutlineIcon height="1.5em" />
+          </li>
         </ul>
       </ul>
     </nav>
