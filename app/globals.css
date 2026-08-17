@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors */
+  --color-background: #10080A;
+  --color-text: #ECE5E6;
+  --color-primary: #A81536;
+  --color-secondary: #89142E;
+  --color-accent: #F71344;
+
+    /* Custom fonts */
+  --font-logo: "42dot Sans", sans-serif;
+  --font-header: "Aldrich", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+}
