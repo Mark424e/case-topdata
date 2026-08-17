@@ -10,10 +10,10 @@ const Header = () => {
           <button>Computere</button>
 
           <div className="absolute -left-1 space-y-2 bg-primary/15 py-4 text-sm shadow-md shadow-primary/50 rounded z-1 min-w-max opacity-0 invisible translate-y-2 transition-all duration-200 ease-in-out group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">TOP-PRIME</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">TOP-PERFORMANCE</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">HIGH-LINE</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">DESIGN-LINE</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">TOP-PRIME</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">TOP-PERFORMANCE</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">HIGH-LINE</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">DESIGN-LINE</a>
           </div>
         </li>
 
@@ -21,14 +21,14 @@ const Header = () => {
           <button>Tilbehør / Udstyr</button>
         
           <div className="absolute -left-1 space-y-2 bg-primary/15 py-4 text-sm shadow-md shadow-primary/50 rounded z-1 min-w-max opacity-0 invisible translate-y-2 transition-all duration-200 ease-in-out group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Netværk</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Skærme</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Grafikkort</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Kabler</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Gear</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">SSD / RAM</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">PSU Strømforsyning</a>
-            <a className=" px-2 float-none block text-left hover:bg-background" href="#">Keyboard og mus</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Netværk</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Skærme</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Grafikkort</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Kabler</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Gear</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">SSD / RAM</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">PSU Strømforsyning</a>
+            <a className=" px-2 float-none block text-left hover:bg-primary" href="#">Keyboard og mus</a>
           </div>
         </li>
         <li>Kontakt</li>
