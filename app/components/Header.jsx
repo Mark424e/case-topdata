@@ -10,15 +10,13 @@ const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <nav className="container mx-auto flex justify-between items-center py-8 font-navbar">
+    <header className="container mx-auto flex justify-between items-center py-8 font-navbar">
       <a className="font-logo tracking-widest uppercase text-3xl me-16 shrink-0" href="#">
         <strong>Top</strong>data
       </a>
 
-      {/* Middle Container holding both elements overlayed */}
       <div className="relative flex-1 flex justify-end items-center h-10">
         
-        {/* 1. Navigation Menu */}
         <ul
           className={`flex items-center space-x-10 transition-all duration-300 ease-in-out [&>li>div]:bg-primary/15 [&>li>div>a]:transition-all [&>li>div>a]:duration-200 [&>li>div>a]:ease-in-out ${
             isSearchOpen
@@ -96,7 +94,6 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* 2. Search Input Container */}
         <div
           className={`absolute inset-0 flex items-center transition-all duration-300 ease-in-out ${
             isSearchOpen
@@ -146,7 +143,7 @@ const Header = () => {
           />
         </button>
       </div>
-    </nav>
+    </header>
   );
 };
 
