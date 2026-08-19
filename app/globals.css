@@ -2,17 +2,32 @@
 
 @theme {
   /* Custom colors */
-  --color-background: #10080A;
-  --color-text: #ECE5E6;
-  --color-primary: #A81536;
-  --color-secondary: #89142E;
-  --color-accent: #F71344;
+  --color-background: #10080a;
+  --color-text: #ece5e6;
+  --color-primary: #a81536;
+  --color-secondary: #89142e;
+  --color-accent: #f71344;
 
-    /* Custom fonts */
+  /* Custom fonts */
   --font-logo: "42dot Sans", sans-serif;
   --font-header: "Aldrich", sans-serif;
   --font-body: "Inter", sans-serif;
+
+  --animate-fade-in-up: fadeInUp 0.6s ease-out forwards;
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
+
+
 
 body {
   background: var(--color-background);
@@ -20,6 +35,16 @@ body {
   font-family: var(--font-body);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-header);
 }
+
+
+/*
+ animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}
+*/
